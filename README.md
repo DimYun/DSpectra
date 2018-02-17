@@ -22,13 +22,17 @@ This repository contains a software implementation of algorithms for X-ray spect
 * Search for characteristic lines:
   * differential algorithm;
   * "Zero Area" algorithm.
+* Classification with linear (with gradient descent and L1 and L2 regularization) and nonlinear (Random Forest) classifiers.
 
 **Using the program.**
 
 * The program is presented in the form of an *.ipynb file, which means that the appropriate software (jupyther notebook) and libraries for the work must be installed on the computer.
 * The folder "specs.zip" contains files of X-ray spectra. Before using the program, the folder must be unpacked.
-* After running the script, it's enough to run all cells sequentially to get the result.
+* After running the scripts in 1st to last order, it's enough to run all cells sequentially to get the result.
 
+All scripts have numbers and special purpose:
+1. DSpectra_1st_form_db - forms data massive with properties, that mentioned before.
+2. DSpectra_2nd_fraction - calculate classification for type of samples particle size.
 
 For all questions, you can contact the author: _Dm.Yunovidov@gmail.com_
 
