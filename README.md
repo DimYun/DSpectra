@@ -1,6 +1,6 @@
 # Read Me
 
-This repository contains a software implementation of algorithms for X-ray spectra automatic processing. The result of the work is an "objects-properties" array of data for NPK(S) 4-30-15(16) mineral fertilizer. 
+This repository contains a software implementation of algorithms for X-ray spectra automatic processing. The result of the work is an "objects-properties" array of data for NPK(S) 4-30-15(16) and others mineral fertilizer. 
 
 **An array contains the following properties.**
 - the intensities of the characteristic lines (calculated from the smoothed spectrum and from the approximation of the lines as gauss line);
@@ -23,6 +23,7 @@ This repository contains a software implementation of algorithms for X-ray spect
   * differential algorithm;
   * "Zero Area" algorithm.
 * Classification with linear (with gradient descent and L1 and L2 regularization) and nonlinear (Random Forest) classifiers.
+* Regression with linear algorithms (with gradient descent and L1 and L2 regularization).
 
 **Using the program.**
 
@@ -33,6 +34,7 @@ This repository contains a software implementation of algorithms for X-ray spect
 All scripts have numbers and special purpose:
 1. DSpectra_1st_form_db - forms data massive with properties, that mentioned before.
 2. DSpectra_2nd_fraction - calculate classification for type of samples particle size.
+3. DSpectra_3rd - classification and regression for all data (spectra and optic) for all type of fertilizers (all_df file). Also, contain algorithms for dimentional reduce.
 
 For all questions, you can contact the author: _Dm.Yunovidov@gmail.com_
 
